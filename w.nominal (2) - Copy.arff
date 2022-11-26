@@ -1,0 +1,55 @@
+@relation ONLINESHOPPINGSYSTEM
+
+
+@attribute CustAge{tens,twenty,thirty,fourty,fifty}
+
+@attribute OrderType{G,MA,EA,WA}
+
+@attribute OnlineShoppingSystem {Shop.com,Shopee,Lazada,Amazon}
+
+@attribute ShoppingStatus{1,2,3,4,5}
+
+@attribute ShippingCompany{LEX,J&T,LALAMOVE}
+
+
+@data
+
+tens,MA,Shop.com,5,LEX
+
+tens,WA,Lazada,4,LALAMOVE
+
+twenty,EA,Shop.com,5,J&T
+
+twenty,EA,Shop.com,3,J&T
+
+thirty,MA,Shopee,5,LEX
+
+fifty,WA,Shopee,5,J&T
+
+fifty,G,Shop.com,4,J&T
+
+thirty,MA,Shopee,5,J&T
+
+thirty,EA,Shopee,3,J&T
+
+fourty,MA,Lazada,4,LEX
+
+thirty,WA,Shop.com,5,LALAMOVE
+
+twenty,EA,Shop.com,2,LALAMOVE
+
+twenty,G,Shop.com,3,LEX
+
+tens,EA,Lazada,4,LALAMOVE
+
+tens,EA,Shop.com,5,LEX
+
+twenty,G,Shopee,5,J&T
+
+fourty,WA,Lazada,4,J&T
+
+twenty,EA,Shop.com,5,LALAMOVE
+
+thirty,MA,Shopee,1,J&T
+
+twenty,G,Shop.com,5,LALAMOVE
